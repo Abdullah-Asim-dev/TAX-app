@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:translateX="21"
+        android:translateY="21">
+        <!-- Receipt Card Base in 66dp zone -->
+        <path
+            android:fillColor="#111827"
+            android:pathData="M16,6 C13.79,6 12,7.79 12,10 L12,54 C12,54 16,52 20,54 C24,56 28,52 32,54 C36,56 40,52 44,54 C48,56 52,54 52,54 L52,10 C52,7.79 50.21,6 48,6 Z"
+            android:strokeWidth="1.5"
+            android:strokeColor="#374151" />
+
+        <!-- Schedule C lines & write-off checks -->
+        <path
+            android:pathData="M20,16 L44,16"
+            android:strokeWidth="2.5"
+            android:strokeColor="#6366F1"
+            android:strokeLineCap="round" />
+        <path
+            android:pathData="M20,24 L36,24"
+            android:strokeWidth="2"
+            android:strokeColor="#9CA3AF"
+            android:strokeLineCap="round" />
+        <path
+            android:pathData="M20,32 L40,32"
+            android:strokeWidth="2"
+            android:strokeColor="#38BDF8"
+            android:strokeLineCap="round" />
+
+        <!-- Radiant Emerald tax savings indicator -->
+        <path
+            android:pathData="M20,40 L32,40"
+            android:strokeWidth="2.5"
+            android:strokeColor="#10B981"
+            android:strokeLineCap="round" />
+
+        <!-- AI Optical Laser Scanner line -->
+        <path
+            android:pathData="M8,28 L56,28"
+            android:strokeWidth="2"
+            android:strokeColor="#38BDF8" />
+
+        <!-- AI Sparkle Micro-star -->
+        <path
+            android:fillColor="#38BDF8"
+            android:pathData="M48,38 L50,42 L54,44 L50,46 L48,50 L46,46 L42,44 L46,42 Z" />
+    </group>
+</vector>
